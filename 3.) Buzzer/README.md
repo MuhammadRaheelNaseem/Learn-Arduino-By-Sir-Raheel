@@ -55,13 +55,6 @@ void loop() {
 # `Code: 3`
 # `Nokia Mobile Ring Tune`
 <pre>
-/* 
-  Nokia Tune
-  Connect a piezo buzzer or speaker to pin 11 or select a new pin.
-  More songs available at https://github.com/robsoncouto/arduino-songs                                            
-                                              
-                                              Robson Couto, 2019
-*/
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -166,8 +159,6 @@ int buzzer = 9;
 // so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
 int melody[] = {
 
-  // Nokia Ringtone 
-  // Score available at https://musescore.com/user/29944637/scores/5266155
   
   NOTE_E5, 8, NOTE_D5, 8, NOTE_FS4, 4, NOTE_GS4, 4, 
   NOTE_CS5, 8, NOTE_B4, 8, NOTE_D4, 4, NOTE_E4, 4, 
@@ -220,13 +211,6 @@ void loop() {
 # `Birthday Ring Tune`
 
 <pre>
-/* 
-  Happy Birthday
-  Connect a piezo buzzer or speaker to pin 11 or select a new pin.
-  More songs available at https://github.com/robsoncouto/arduino-songs                                            
-                                              
-                                              Robson Couto, 2019
-*/
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -330,10 +314,6 @@ int buzzer = 9;
 // !!negative numbers are used to represent dotted notes,
 // so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
 int melody[] = {
-
-  // Happy Birthday
-  // Score available at https://musescore.com/user/8221/scores/26906
-
   NOTE_C4,4, NOTE_C4,8, 
   NOTE_D4,-4, NOTE_C4,-4, NOTE_F4,-4,
   NOTE_E4,-2, NOTE_C4,4, NOTE_C4,8, 
@@ -391,13 +371,6 @@ void loop() {
 # `Code: 5`
 # `Super Mario Ring Tune`
 <pre>
-/* 
-  Super Mario Bros - Overworld theme 
-  Connect a piezo buzzer or speaker to pin 11 or select a new pin.
-  More songs available at https://github.com/robsoncouto/arduino-songs                                            
-                                              
-                                              Robson Couto, 2019
-*/
 
 #define NOTE_B0  31
 #define NOTE_C1  33
@@ -504,11 +477,6 @@ int buzzer = 9;
 // so -4 means a dotted quarter note, that is, a quarter plus an eighteenth!!
 int melody[] = {
 
-  // Super Mario Bros theme
-  // Score available at https://musescore.com/user/2123/scores/2145
-  // Theme by Koji Kondo
-  
-  
   NOTE_E5,8, NOTE_E5,8, REST,8, NOTE_E5,8, REST,8, NOTE_C5,8, NOTE_E5,8, //1
   NOTE_G5,4, REST,4, NOTE_G4,8, REST,4, 
   NOTE_C5,-4, NOTE_G4,8, REST,4, NOTE_E4,-4, // 3
