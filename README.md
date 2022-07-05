@@ -1,0 +1,2 @@
+# Learn-Arduino-By-Sir-Raheel
+Arduino is a prototype platform (open-source) based on an easy-to-use hardware and software. It consists of a circuit board, which can be programed (referred to as a microcontroller) and a ready-made software called Arduino. Arduino boards are able to read input signals from different sensors and turn it into an output such as activating a motor, turning LED on/off, connect to the cloud and many other actions.
